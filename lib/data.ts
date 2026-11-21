@@ -47,7 +47,7 @@ export const NAV = [
 export const SITE = {
   name: "寻梦环游站",
   phone: "400-888-1931",
-  address: { zh: "广州市越秀区小北路123号 静巷里1号铺", en: "No. 1, Quiet Lane, 123 Xiaobei Road, Yuexiu, Guangzhou" } satisfies Localized,
+  address: { zh: "青岛市", en: "Qingdao" } satisfies Localized,
   hours: { zh: "周二至周日 10:00 – 18:00（周一休息）", en: "Tue–Sun 10:00–18:00 (closed Monday)" } satisfies Localized,
   philosophy: {
     zh: "站点收购家庭旧物，再决定展出或售出。物件不会消失，只会遇见下一个懂得它的人。",
@@ -147,7 +147,7 @@ export const relics: Relic[] = [
     },
     related: ["qipao", "handkerchief", "flowers", "sewing"],
     image: "/objects/scarf.jpg",
-    soldTo: { zh: "在广州教书的陈女士", en: "Ms. Chen, who teaches in Guangzhou" },
+    soldTo: { zh: "在青岛教书的陈女士", en: "Ms. Chen, who teaches in Qingdao" },
     soldNote: { zh: "她按夹层里的折法学会了那一挽，春天出门仍会系。", en: "She learned the knot from the note inside, and still wears it in spring." },
   },
   {
